@@ -3,7 +3,7 @@ export const LEADERS = [
     {
       id: 1,
       name: 'Alberto Somayya',
-      image: 'Hossik/truffle/master/public/assets/img7.jpg',
+      image: 'Hossik/truffle/master/public/assets/roj.png',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,

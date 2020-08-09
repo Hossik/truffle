@@ -37,9 +37,9 @@ return(
     <React.Fragment>
         <Navbar dark  expand="md">
             <div className="container">
-                <NavbarToggler  onClick={this.toggleNav} />
-                <img id="brand"src='https://raw.githubusercontent.com/Hossik/roja/master/public/assets/logo1.jpg'  alt='Roja' />
-                <Collapse isOpen={this.state.isNavOpen} navbar>
+                <NavbarToggler  onClick={this.toggleNav} float-xs-right />
+                <img id="brand"src='https://web.telegram.org/b19d1088-84d2-4709-a316-eb17b65cba06'  alt='Roja' />
+                <Collapse isOpen={this.state.isNavOpen} float-xs-right navbar>
                     <Nav navbar>
                     <NavItem>
                       <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> خانه </NavLink>

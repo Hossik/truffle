@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/geminitruffle/static/css/main.9d780e7c.chunk.css",
-    "main.js": "/geminitruffle/static/js/main.d60cefa7.chunk.js",
-    "main.js.map": "/geminitruffle/static/js/main.d60cefa7.chunk.js.map",
-    "runtime-main.js": "/geminitruffle/static/js/runtime-main.ed41fef1.js",
-    "runtime-main.js.map": "/geminitruffle/static/js/runtime-main.ed41fef1.js.map",
-    "static/css/2.788a5ccc.chunk.css": "/geminitruffle/static/css/2.788a5ccc.chunk.css",
-    "static/js/2.bfeeb0f8.chunk.js": "/geminitruffle/static/js/2.bfeeb0f8.chunk.js",
-    "static/js/2.bfeeb0f8.chunk.js.map": "/geminitruffle/static/js/2.bfeeb0f8.chunk.js.map",
-    "index.html": "/geminitruffle/index.html",
-    "precache-manifest.0721b9ac4066f35d8d87b8df0b4c24f8.js": "/geminitruffle/precache-manifest.0721b9ac4066f35d8d87b8df0b4c24f8.js",
-    "service-worker.js": "/geminitruffle/service-worker.js",
-    "static/css/2.788a5ccc.chunk.css.map": "/geminitruffle/static/css/2.788a5ccc.chunk.css.map",
-    "static/css/main.9d780e7c.chunk.css.map": "/geminitruffle/static/css/main.9d780e7c.chunk.css.map",
-    "static/js/2.bfeeb0f8.chunk.js.LICENSE.txt": "/geminitruffle/static/js/2.bfeeb0f8.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/geminitruffle/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/truffle/static/css/main.9d780e7c.chunk.css",
+    "main.js": "/truffle/static/js/main.acb5cccf.chunk.js",
+    "main.js.map": "/truffle/static/js/main.acb5cccf.chunk.js.map",
+    "runtime-main.js": "/truffle/static/js/runtime-main.affd6b29.js",
+    "runtime-main.js.map": "/truffle/static/js/runtime-main.affd6b29.js.map",
+    "static/css/2.10467708.chunk.css": "/truffle/static/css/2.10467708.chunk.css",
+    "static/js/2.bfeeb0f8.chunk.js": "/truffle/static/js/2.bfeeb0f8.chunk.js",
+    "static/js/2.bfeeb0f8.chunk.js.map": "/truffle/static/js/2.bfeeb0f8.chunk.js.map",
+    "index.html": "/truffle/index.html",
+    "precache-manifest.cdc08d515a822be759d2b50e0129da30.js": "/truffle/precache-manifest.cdc08d515a822be759d2b50e0129da30.js",
+    "service-worker.js": "/truffle/service-worker.js",
+    "static/css/2.10467708.chunk.css.map": "/truffle/static/css/2.10467708.chunk.css.map",
+    "static/css/main.9d780e7c.chunk.css.map": "/truffle/static/css/main.9d780e7c.chunk.css.map",
+    "static/js/2.bfeeb0f8.chunk.js.LICENSE.txt": "/truffle/static/js/2.bfeeb0f8.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/truffle/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed41fef1.js",
-    "static/css/2.788a5ccc.chunk.css",
+    "static/js/runtime-main.affd6b29.js",
+    "static/css/2.10467708.chunk.css",
     "static/js/2.bfeeb0f8.chunk.js",
     "static/css/main.9d780e7c.chunk.css",
-    "static/js/main.d60cefa7.chunk.js"
+    "static/js/main.acb5cccf.chunk.js"
   ]
 }

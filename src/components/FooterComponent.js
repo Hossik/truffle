@@ -39,7 +39,7 @@ function Footer(props){
             <div className="row justify-content-center">
                 <div className="col-auto notitle">
                     <p>Copyright 2020 Gemini Truffle © 
-</p>
+                    </p>
                 </div>
             </div>
         </div>

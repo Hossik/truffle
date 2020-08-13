@@ -9,9 +9,9 @@ function RenderLeader({leader}){
   return(
       <Media>
         <Media left middle>
-          <Media object src={baseUrl +leader.image} alt={leader.name} />
+          <Media object src='https://raw.githubusercontent.com/Hossik/truffle/master/public/assets/roja.jpg' width="100px"  alt={leader.name} />
         </Media>
-        <Media body className="ml-5">
+        <Media body className="mr-5">
           <Media heading>{leader.name}</Media>
           <p>{leader.designation}</p>
           <p>{leader.description}</p>

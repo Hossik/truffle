@@ -42,16 +42,17 @@ return(
                 <Collapse isOpen={this.state.isNavOpen} float-xs-right navbar>
                     <Nav navbar>
                     <NavItem>
-                      <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> خانه </NavLink>
+                      <NavLink className="nav-link title"  to='/home'><span className="fa fa-home fa-lg"></span> خانه </NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink className="nav-link" to='/aboutus'><span className="fa fa-info fa-lg"></span> درباره من</NavLink>
+                      <NavLink className="nav-link title" to='/aboutus'><span className="fa fa-info fa-lg"></span> درباره من</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="nav-link"  to='/menu'><span className="fa fa-list fa-lg"></span> منو</NavLink>
+                        <NavLink className="nav-link title"  to='/menu'><span className="fa fa-list fa-lg"></span> منو</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink className="nav-link" to='/contactus'><span className="fa fa-address-card fa-lg"></span> تماس</NavLink>
+                      <NavLink className="nav-link title" to='/contactus'><span className="fa fa-address-card fa-lg"></span>  تماس و سفارش 
+                      </NavLink>
                     </NavItem>
                     </Nav>
                     

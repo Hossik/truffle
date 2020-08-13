@@ -51,5 +51,35 @@ export const DISHES =
         price:'2.99',
         featured: false,
         description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم بادام زمینی عرضه می گردد'
+        },
+        {
+        id: 6,
+        name:'جعبه مخلوط',
+        image: 'Hossik/truffle/master/public/assets/box.jpeg',
+        category: 'ترافل کیکی',
+        label:'',
+        price:'2.99',
+        featured: false,
+        description:'شامل (پسته ای، بادام زمینی، ساده، شکلاتی ،قهوه)'
+        },
+        {
+        id: 7,
+        name:'ترافل کیکی با طعم بادام زمینی',
+        image: 'Hossik/truffle/master/public/assets/box1.jpeg',
+        category: 'ترافل کیکی',
+        label:'',
+        price:'2.99',
+        featured: false,
+        description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم بادام زمینی عرضه می گردد'
+        },
+        {
+        id: 8,
+        name:'ترافل کیکی با طعم بادام زمینی',
+        image: 'Hossik/truffle/master/public/assets/box2.jpeg',
+        category: 'ترافل کیکی',
+        label:'',
+        price:'2.99',
+        featured: false,
+        description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم بادام زمینی عرضه می گردد'
         }
     ];

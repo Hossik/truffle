@@ -9,7 +9,7 @@ function RenderMenuItem ({dish}) {
 return (
     <Card className="title">
       <Link to={`/menu/${dish.id}`} >
-        <CardImg width="100%" src={baseUrl + dish.image} alt={dish.name} />
+        <CardImg width="100%" style={{height:'400px'}}src={baseUrl + dish.image} alt={dish.name} />
         <CardImgOverlay>
           <CardTitle style={{color:"black", background:"yellow"}}>{dish.name}
           </CardTitle>

@@ -360,4 +360,38 @@ export const COMMENTS =
         comment: "کنجد",
         
     },
+    {
+        id: 0,
+        dishId: 6,
+        rating: 1,
+        comment: "ترافل کیکی با طعم پسته ای",
+    },
+    {
+        id: 1,
+        dishId: 6,
+        rating: 4,
+        comment: "ترافل کیکی با طعم ساده",
+       
+    },
+    {
+        id: 2,
+        dishId: 6,
+        rating: 3,
+        comment: "ترافل کیکی با طعم شکلاتی",
+       
+    },
+    {
+        id: 3,
+        dishId: 6,
+        rating: 4,
+        comment: "ترافل کیکی با طعم قهوه",
+        
+    },
+    {
+        id: 4,
+        dishId: 6,
+        rating: 2,
+        comment: "ترافل کیکی با طعم بادام زمینی",
+        
+    }
 ]

@@ -9,45 +9,11 @@ const required = (val) => val && val.length;
 const maxLength = (len) => (val) => !(val) || (val.length <= len)
 const minLength = (len) => (val) => (val) && (val.length >= len)
 
-export class CommentForm extends Component {
-  constructor(props) {
-    super(props);
 
-    this.state = {
-      isModalOpen:false
-    };
-    
-
-  }
-  toggleModal= () => {
-    this.setState({
-      isModalOpen: !this.state.isModalOpen
-    });
-  }
-  handleSubmit(values){
-    this.toggleModal();
-    this.props.addComment(this.props.dishId, values.rating, values.author, values.comment);
-  }
-  
-  render() {
-    
-    return (
-      <React.Fragment>
-      <Button outline onClick={this.toggleModal}><span className="fa fa-pencil fa-lg"></span>Submit Comment</Button>
-      <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} >
-        <ModalHeader toggle={this.toggleModal}>Submit Comment</ModalHeader>
-        <ModalBody>
-        
-        </ModalBody>
-      </Modal>
-      </React.Fragment>
-    )
-  }
-}
 
 function RenderDish({ dish }) {
   return (
-    <div className="col-12 col-md-5 m-1">
+    <div className="col-12 col-md-5 m-1 title">
       <FadeTransform in
           transformProps={{
             exitTransform: 'scale(0.5) translateY(-50%)'
@@ -64,11 +30,11 @@ function RenderDish({ dish }) {
   );
 }
 
-function RenderComments({ comments, addComment, dishId }) {
+function RenderComments({ comments }) {
   if (comments != null)
     return (
-      <div className="col-12 col-md-5 m1">
-        <h4>Comments</h4>
+      <div className="col-12 col-md-5 m1 title">
+        <h4>مواد تشکیل دهنده</h4>
         <ul className="list-unstyled">
         <Stagger in>
           {comments.map((comment) => {
@@ -76,21 +42,13 @@ function RenderComments({ comments, addComment, dishId }) {
               <Fade in>
               <li key={comment.id}>
                 <p>{comment.comment}</p>
-                <p>
-                  -- {comment.author},{" "}
-                  {new Intl.DateTimeFormat("en-US", {
-                    year: "numeric",
-                    month: "short",
-                    day: "2-digit",
-                  }).format(new Date(Date.parse(comment.date)))}
-                </p>
+                
               </li>
               </Fade>
             );
           })}
           </Stagger>
         </ul>
-        <CommentForm dishId={dishId} addComment={addComment} />
       </div>
     );
   else return <div></div>;

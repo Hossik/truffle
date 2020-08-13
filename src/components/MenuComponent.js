@@ -7,9 +7,9 @@ import { baseUrl } from '../shared/baseUrl';
 
 function RenderMenuItem ({dish}) {
 return (
-    <Card>
+    <Card className="title">
       <Link to={`/menu/${dish.id}`} >
-        <CardImg className="imgmen" src={baseUrl + dish.image} alt={dish.name} />
+        <CardImg width="100%" src={baseUrl + dish.image} alt={dish.name} />
         <CardImgOverlay>
           <CardTitle>{dish.name}</CardTitle>
         </CardImgOverlay>

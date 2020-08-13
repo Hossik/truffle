@@ -124,7 +124,7 @@ const Dishdetail = (props) => {
           </BreadcrumbItem>
           <BreadcrumbItem active>{props.dish.name}</BreadcrumbItem>
         </Breadcrumb>
-      <div className="col-12">
+      <div className="col-12 title">
         <h3>{props.dish.name}</h3>
         <hr />
       </div>

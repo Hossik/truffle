@@ -53,7 +53,7 @@ const Menu = (props) =>{
           <BreadcrumbItem><Link to="/home">خانه</Link></BreadcrumbItem>
           <BreadcrumbItem active>منو</BreadcrumbItem>
         </Breadcrumb>
-        <div className="col-12">
+        <div className="col-12 title">
           <h3>منو</h3>
           <hr />
         </div>

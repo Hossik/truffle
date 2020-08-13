@@ -38,7 +38,7 @@ return(
         <Navbar dark  expand="md">
             <div className="container">
                 <NavbarToggler  onClick={this.toggleNav} float-xs-right />
-                <img id="brand"src='https://web.telegram.org/b19d1088-84d2-4709-a316-eb17b65cba06'  alt='Roja' />
+                <img id="brand"src='https://raw.githubusercontent.com/Hossik/truffle/master/public/assets/icon.jpeg'  alt='Roja' />
                 <Collapse isOpen={this.state.isNavOpen} float-xs-right navbar>
                     <Nav navbar>
                     <NavItem>
@@ -59,11 +59,15 @@ return(
             </div>
         </Navbar>
         <Jumbotron>
-            <div className="container">
+            <div className="container title">
                 <div className="row row-header">
                     <div className="col-12 col-sm-6">
-                        <h1>Ristorante con Fusion</h1>
-                        <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                        <h1>Gemini Truffle</h1>
+                        <p>تولید کننده شیرینی های خانگی 
+دست ساز تهیه شده از مواد تازه و طعم دهنده های
+   طبیعی بدون هرگونه مواد نگهدارنده 
+,سالم و خوشمزه 
+!</p>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@
 .jumbotron {
   padding:70px 30px 70px 30px;
   margin:0px auto;
-  background: #bbd331 ;
+  background: #e6d855 ;
   color:rgb(24, 23, 22);
 }
 .nav-link{
@@ -31,14 +31,16 @@ address{
 }
 
 .navbar-dark {
-  background-color: #a89c2d;
+  background-color: #36d3be;
 }
 #brand{
   margin: 10px;
   border-radius: 70px;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 74px;
  
+ background-color: #36d3be;
+
 }
 
 .page-enter{
@@ -169,4 +171,7 @@ html {
   }
   .tooltip {
   text-align: right;
+  }
+  .title{
+    text-align: right;
   }

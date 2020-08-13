@@ -26,13 +26,13 @@ import { Link } from 'react-router-dom';
             <BreadcrumbItem><Link to="/home">خانه</Link></BreadcrumbItem>
             <BreadcrumbItem active>تماس</BreadcrumbItem>
         </Breadcrumb>
-        <div className="col-12">
+        <div className="col-12 title">
             <h3>تماس</h3>
             <hr />
         </div>
     </div>
     <div className="row row-content">
-      <div className="col-12">
+      <div className="col-12 title">
       <h3>Location Information</h3>
       </div>
       <div className="col-12 col-sm-4 offset-sm-1">
@@ -47,7 +47,7 @@ import { Link } from 'react-router-dom';
         </address>
       </div>
       
-      <div className="col-12 col-sm-11 offset-sm-1">
+      <div className="col-12 col-sm-11 offset-sm-1 title">
           <div className="btn-group" role="group">
             <button className="btn btn-primary" href="tel:+85212345678"><i className="fa fa-phone"></i> تلفن</button>
             <button className="btn btn-info"><i className="fa fa-skype"></i> Skype</button>

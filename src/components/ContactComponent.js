@@ -31,7 +31,8 @@ import { ExternalLink } from 'react-external-link';
     <div className="row row-content">
       <div className="col-12 title">
       </div>
-      <div className="col-12 col-sm-4 offset-sm-1 title">
+      <div className="col-12 col-sm-7 offset-sm-1 title">
+        <h2 className="col-sm-nowrap">لطفا سفارش خود را دو روز قبل اعلام کنید</h2>
         <h5>آدرس</h5>
         <address>
         ایران<br />
@@ -42,11 +43,12 @@ import { ExternalLink } from 'react-external-link';
         </address>
       </div>
       
-      <div className="col-12 col-sm-11 offset-sm-1 title">
-          <div className="btn-group" role="group">
-          <ExternalLink href="tel:+989371687588" ><button className="btn btn-info" ><i className="fa fa-phone"></i> تلفن</button></ExternalLink>
-          <ExternalLink href='https://telegram.im/@geminisweet' ><button className="btn btn-primary" ><i className=" fa fa-telegram"></i> تلگرام</button></ExternalLink>
-          <ExternalLink href="mailto:roja.haghighatz@gmail.com" ><button className="btn btn-success" ><i className="fa fa-envelope-o"></i> ایمیل</button></ExternalLink>
+      <div className=" align-self-end ml-auto ">
+          <div className="btn-group  align-self-end ml-auto" role="group">
+          <ExternalLink href="tel:+989371687588" ><button className="btn btn-info text-nowrap btncon" ><i className="fa fa-phone"></i> تلفن</button></ExternalLink>
+          <ExternalLink href='https://telegram.im/@geminisweet' ><button className="btn btn-primary text-nowrap btncon" ><i className=" fa fa-telegram"></i> تلگرام</button></ExternalLink>
+          <ExternalLink href="mailto:roja.haghighatz@gmail.com" ><button className="btn btn-success text-nowrap btncon" ><i className="fa fa-envelope-o"></i> ایمیل</button></ExternalLink>
+          <ExternalLink href="https://www.instagram.com/sweet.geminitruffle" ><button className="btn btn-danger text-nowrap btncon" ><i className="fa fa-instagram"></i> اینستگرام</button></ExternalLink>
           </div>
         </div>
     </div>

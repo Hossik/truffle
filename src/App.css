@@ -177,6 +177,15 @@ html {
   }
   .notitle{
     text-align: left;
-
   }
-  
+.footbtn{
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.3rem;
+  font-size: 1.5em;
+  text-align: center;
+}
+.btncon{
+  margin-left: 0.05rem;
+
+}

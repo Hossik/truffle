@@ -29,9 +29,10 @@ function Footer(props){
                 <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
                     <div className="btn-group" role="group">
-          <ExternalLink href="tel:+989371687588" ><button className="btn btn-info" ><i className="fa fa-phone"></i> تلفن</button></ExternalLink>
-          <ExternalLink href='https://telegram.im/@geminisweet' ><button className="btn btn-primary" ><i className=" fa fa-telegram"></i> تلگرام</button></ExternalLink>
-          <ExternalLink href="mailto:roja.haghighatz@gmail.com" ><button className="btn btn-success" ><i className="fa fa-envelope-o"></i> ایمیل</button></ExternalLink>
+          <ExternalLink href="tel:+989371687588" ><button className="btn btn-info footbtn" ><i className="fa fa-phone"></i> </button></ExternalLink>
+          <ExternalLink href='https://telegram.im/@geminisweet' ><button className="btn btn-primary footbtn" ><i className=" fa fa-telegram"></i> </button></ExternalLink>
+          <ExternalLink href="mailto:roja.haghighatz@gmail.com" ><button className="btn btn-success footbtn" ><i className="fa fa-envelope-o"></i> </button></ExternalLink>
+          <ExternalLink href="https://www.instagram.com/sweet.geminitruffle" ><button className="btn btn-danger footbtn" ><i className="fa fa-instagram"></i> </button></ExternalLink>
           </div>
                     </div>
                 </div>

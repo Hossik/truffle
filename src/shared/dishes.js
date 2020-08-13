@@ -4,7 +4,7 @@ export const DISHES =
         {
         id: 1,
         name:'Zucchipakoda',
-        image: '/assets/images/zucchipakoda.png',
+        image: 'Hossik/truffle/master/public/assets/menu.jpeg',
         category: 'appetizer',
         label:'',
         price:'1.99',
@@ -14,7 +14,7 @@ export const DISHES =
         {
         id: 2,
         name:'Vadonut',
-        image: '/assets/images/vadonut.png',
+        image: '/assets/images/menu1.jpeg',
         category: 'appetizer',
         label:'New',
         price:'1.99',

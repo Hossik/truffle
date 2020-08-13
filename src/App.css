@@ -175,4 +175,8 @@ html {
   .title{
     text-align: right;
   }
+  .notitle{
+    text-align: left;
+
+  }
   

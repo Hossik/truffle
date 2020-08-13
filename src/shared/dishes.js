@@ -15,7 +15,7 @@ export const DISHES =
         {
         id: 2,
         name:'ترافل کیکی با طعم ساده        ',
-        image: 'Hossik/truffle/master/public/assets/menu1.jpeg',
+        image: 'Hossik/truffle/master/public/assets/menu5.jpeg',
         category: 'ترافل کیکی',
         label:'New',
         price:'1.99',
@@ -33,7 +33,7 @@ export const DISHES =
         description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم شکلاتی عرضه می گردد'
         },
         {
-        id: 2,
+        id: 4,
         name:'ترافل کیکی با طعم قهوه',
         image: 'Hossik/truffle/master/public/assets/menu3.jpeg',
         category: 'ترافل کیکی',
@@ -43,7 +43,7 @@ export const DISHES =
         description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم قهوه عرضه می گردد'
         },
         {
-        id: 3,
+        id: 5,
         name:'ترافل کیکی با طعم بادام زمینی',
         image: 'Hossik/truffle/master/public/assets/menu4.jpeg',
         category: 'ترافل کیکی',

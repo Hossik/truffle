@@ -55,8 +55,8 @@ export const DISHES =
         {
         id: 6,
         name:'جعبه مخلوط',
-        image: 'Hossik/truffle/master/public/assets/box.jpeg',
-        category: 'ترافل کیکی',
+        image: 'Hossik/truffle/master/public/assets/box1.jpeg',
+        category: 'box',
         label:'',
         price:'2.99',
         featured: false,
@@ -64,22 +64,12 @@ export const DISHES =
         },
         {
         id: 7,
-        name:'ترافل کیکی با طعم بادام زمینی',
-        image: 'Hossik/truffle/master/public/assets/box1.jpeg',
-        category: 'ترافل کیکی',
-        label:'',
-        price:'2.99',
-        featured: false,
-        description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم بادام زمینی عرضه می گردد'
-        },
-        {
-        id: 8,
-        name:'ترافل کیکی با طعم بادام زمینی',
+        name:'جعبه جادویی',
         image: 'Hossik/truffle/master/public/assets/box2.jpeg',
-        category: 'ترافل کیکی',
+        category: 'box',
         label:'',
         price:'2.99',
         featured: false,
-        description:'ترافل های کیکی به صورت گرد در می آیند و در  طعم بادام زمینی عرضه می گردد'
+        description:'به انتخاب خود جعبه را پر کنید'
         }
     ];

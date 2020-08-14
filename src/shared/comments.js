@@ -393,5 +393,12 @@ export const COMMENTS =
         rating: 2,
         comment: "ترافل کیکی با طعم بادام زمینی",
         
+    },
+    {
+        id: 4,
+        dishId: 7,
+        rating: 2,
+        comment: "انتخابی",
+        
     }
 ]

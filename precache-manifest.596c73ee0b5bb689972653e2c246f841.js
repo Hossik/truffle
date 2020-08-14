@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67d331c83b2af1b718d6483e200f88fc",
+    "revision": "3c3c869c3573d99f038a89581f73e475",
     "url": "/truffle/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/truffle/static/css/2.10467708.chunk.css"
   },
   {
-    "revision": "870b1157d829a10b1a0c",
+    "revision": "c942f1bad127883f2528",
     "url": "/truffle/static/css/main.cbcf3895.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/truffle/static/js/2.eecc0f7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "870b1157d829a10b1a0c",
-    "url": "/truffle/static/js/main.53045ca0.chunk.js"
+    "revision": "c942f1bad127883f2528",
+    "url": "/truffle/static/js/main.e83434b0.chunk.js"
   },
   {
     "revision": "83dcd215a21cff18586a",

@@ -55,7 +55,7 @@ export const DISHES =
         {
         id: 6,
         name:'جعبه مخلوط',
-        image: 'Hossik/truffle/master/public/assets/box1.jpeg',
+        image: 'Hossik/truffle/master/public/assets/box2.jpeg',
         category: 'box',
         label:'',
         price:'2.99',
@@ -65,7 +65,7 @@ export const DISHES =
         {
         id: 7,
         name:'جعبه جادویی',
-        image: 'Hossik/truffle/master/public/assets/box2.jpeg',
+        image: 'Hossik/truffle/master/public/assets/box1.jpeg',
         category: 'box',
         label:'',
         price:'2.99',

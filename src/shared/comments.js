@@ -48,20 +48,6 @@ export const COMMENTS =
        
     },
     {
-        id: 7,
-        dishId: 1,
-        rating: 3,
-        comment: "پنیر خامه‌ای",
-       
-    },
-    {
-        id: 8,
-        dishId: 1,
-        rating: 4,
-        comment: "خامه",
-        
-    },
-    {
         id: 9,
         dishId: 1,
         rating: 2,
@@ -123,21 +109,7 @@ export const COMMENTS =
         comment: "وانیل",
        
     },
-    {
-        id: 7,
-        dishId: 2,
-        rating: 3,
-        comment: "پنیر خامه‌ای",
-       
-    },
-    {
-        id: 8,
-        dishId: 2,
-        rating: 4,
-        comment: "خامه",
-        
-    }
-    
+   
     ,
     {
         id: 0,
@@ -185,20 +157,6 @@ export const COMMENTS =
         rating: 4,
         comment: "وانیل",
        
-    },
-    {
-        id: 7,
-        dishId: 3,
-        rating: 3,
-        comment: "پنیر خامه‌ای",
-       
-    },
-    {
-        id: 8,
-        dishId: 3,
-        rating: 4,
-        comment: "خامه",
-        
     },
     {
         id: 9,
@@ -255,20 +213,6 @@ export const COMMENTS =
         rating: 4,
         comment: "وانیل",
        
-    },
-    {
-        id: 7,
-        dishId: 4,
-        rating: 3,
-        comment: "پنیر خامه‌ای",
-       
-    },
-    {
-        id: 8,
-        dishId: 4,
-        rating: 4,
-        comment: "خامه",
-        
     },
     {
         id: 9,
@@ -332,20 +276,7 @@ export const COMMENTS =
         comment: "وانیل",
        
     },
-    {
-        id: 7,
-        dishId: 5,
-        rating: 3,
-        comment: "پنیر خامه‌ای",
-       
-    },
-    {
-        id: 8,
-        dishId: 5,
-        rating: 4,
-        comment: "خامه",
-        
-    },
+    
     {
         id: 9,
         dishId: 5,

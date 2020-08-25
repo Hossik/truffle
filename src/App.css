@@ -1,3 +1,11 @@
+.homeimg{
+  max-height: 25vmax;
+}
+@media (max-width: 767px) {
+  .homeimg{
+    min-height: 45vmax;
+  }
+}
 .row-header{
   margin:0px auto;
   padding:0px auto;

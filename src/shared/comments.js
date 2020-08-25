@@ -110,7 +110,7 @@ export const COMMENTS =
        
     },
    
-    ,
+    
     {
         id: 0,
         dishId: 3,

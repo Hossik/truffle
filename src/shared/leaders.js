@@ -3,7 +3,7 @@ export const LEADERS = [
     {
       id: 0,
       name: 'رُجا حقیقت زاده',
-      image: 'Hossik/truffle/master/public/assets/roj.png',
+      image: 'Hossik/truffle/master/public/assets/rojwithhat.png',
       designation: ' مدیر و سر آشپز',
       abbr: 'EC',
       featured: true,
